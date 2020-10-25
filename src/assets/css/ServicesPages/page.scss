@@ -1,0 +1,245 @@
+.body-services{
+.logo-retour i{
+	color: #292b2c !important;
+}
+}
+.main-services {
+  .audio-service-1{
+    font-family: menu;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .main-service--page{
+    background-color: #291ef4;
+    background: #fff url(../img/page-services/background.png);
+    background-size: auto 200%;
+    background-position: center;
+    left: 0;
+    position: relative;
+    top: 0;
+    min-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+    min-height: 100vh;
+
+  .main-services--back {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .main-services--titre h1 {
+    font-size: 5vw;
+    text-align: center;
+    font-family: menu;
+		text-transform: uppercase;
+		margin-top: 7vh;
+  }
+
+  .main-services--definition{
+    border: 35px solid black;
+    background-color: #ffffffb5;
+		margin-bottom: 10vh;
+  }
+
+  .main-services--definition p {
+    font-family: menu;
+    font-size: 22px;
+    text-align: justify;
+  }
+
+  .main-services--definition h2 {
+    font-family: menu;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.5vw;
+  }
+
+
+  .main-services--module {
+    .main-services--module---titre {
+      font-family: menu;
+      font-weight: bold;
+    }
+
+    .services {
+      overflow: auto;
+      margin: 0 auto;
+    }
+
+    .pricecol {
+      width: 31%;
+      background: rgb(38, 48, 52);
+      min-height: 30%;
+      border-radius: 10px;
+      position: relative;
+      padding: 30px 0;
+      text-align: center;
+      font-family: menu;
+      float: left;
+      margin-left: 20px;
+    }
+
+    .icon {
+      width: 60px;
+      height: 60px;
+      border-radius: 100%;
+      background: $home-web;
+      color: #fff;
+      text-align: center;
+      position: relative;
+      margin: 0 auto;
+    }
+
+    h3 {
+      text-align: center;
+      background: rgb(34, 43, 47);
+      text-align: center;
+      border-top: 1px solid rgb(25, 31, 34);
+      border-bottom: 1px solid rgb(51, 60, 64);
+      color: #fff;
+    }
+
+    h3 span {
+      border-top: 1px solid rgb(51, 60, 64);
+      border-bottom: 1px solid rgb(25, 31, 34);
+      display: block;
+      padding: 10px 0;
+      font-family: menu;
+      font-size: 20px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      color: #fff;
+      font-family: menu;
+      font-size: 14px;
+      margin: 0 auto;
+      text-align: center;
+      width: 70%;
+      color: rgb(165, 174, 178);
+      border-bottom: 1px solid rgb(51, 60, 64);
+      border-top: 1px solid rgb(25, 31, 34);
+    }
+
+    li {
+      padding: 10px 0;
+      border-top: 1px solid rgb(51, 60, 64);
+      border-bottom: 1px solid rgb(25, 31, 34);
+    }
+  }
+  .main-services--image-web-ref{
+    height: 200px;
+    background-image: url(../img/page-services/web/referencement/seo.png);
+    background-size: contain;
+  }
+  .main-services--image-web-ref2{
+    height: 35vh;
+    background-image: url(../img/page-services/web/referencement/head.png);
+    background-size: contain;
+    background-position: top right;
+  }
+	.main-services--image-web-ref3{
+		height: 35vh;
+		background-image: url(../img/page-services/web/referencement/separation.png);
+		background-size: cover;
+		background-position: top right;
+	}
+  .main-services--image-web-ux{
+    background-image: url(../img/page-services/web/ergonomie/1.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+  }
+  .main-services--image-web-ergonomie{
+    background-image: url(../img/page-services/web/ergonomie/ergonomie3.gif);
+    background-size: contain;
+		background-position: center;
+    height: 30vh;
+  }
+  .main-services--image-web-ergonomie-2{
+    background-image: url(../img/page-services/web/ergonomie/ergonomie.png);
+    background-size: contain;
+    height: 100%;
+  }
+  .main-services--image-web-ergonomie-3{
+    background-image: url(../img/page-services/web/ergonomie/ergonomie2.png);
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+  }
+  .main-services--image-web-ecommerce{
+    background-image: url(../img/page-services/web/Ecommerce/2128.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+  }
+  .main-services--image-web-ecommerce-2{
+    background-image: url(../img/page-services/web/Ecommerce/16544.png);
+    background-size: contain;
+    background-position: center;
+    height: 50vh;
+  }
+  .main-services--image-audio-musicimage{
+    background-image: url(../img/page-services/audio/musique-a-limage/339670-PAVV0X-636.png);
+    background-size: contain;
+    background-position: center;
+    height: 45vh;
+  }
+  .main-services--image-audio-musicimage2{
+    background-image: url(../img/page-services/audio/musique-a-limage/2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 38vh;
+  }
+	.ytp-cued-thumbnail-overlay-image{
+		background-image: url(../img/page-services/audio/musique-a-limage/2.jpg) !important;
+	}
+
+
+	.main-services--image-audio-identitesonore1{
+    background-image: url(../img/page-services/audio/identite-sonore/2.png);
+    background-size: contain;
+    background-position: center;
+		height: 20vh;
+  }
+  .main-services--image-audio-identitesonore2{
+    background-image: url(../img/page-services/audio/identite-sonore/1.png);
+    background-size: contain;
+    background-position: right;
+  }
+
+  .main-services--image-audio-voix-off{
+    background-image: url(../img/page-services/audio/voix-off/1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+  }
+	.main-services--image-audio-exposition{
+		background-image: url(../img/page-services/audio/exposition/1.png);
+		background-size: contain;
+		background-position: right;
+	}
+	.main-services--image-audio-sound-design{
+		background-image: url(../img/page-services/audio/sound-design/1.png);
+		background-size: contain;
+		background-position: center;
+		height: 40vh;
+	}
+	.main-services--image-image-logo{
+		background-image: url(../img/page-services/image/logo/logo-img.png);
+		background-size: contain;
+		background-position: center;
+		height: 40vh;
+	}
+}
+
+@media screen and (max-width: 700px) {
+  .main-services--definition h2 {
+    font-size: 6vw !important;
+  }
+  .main-services .main-services--titre h1 {
+    font-size: 7vw !important;
+}
+}

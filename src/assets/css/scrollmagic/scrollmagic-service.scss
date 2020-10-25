@@ -1,0 +1,71 @@
+.services--item---text-services-1 {
+	// DROITE
+	opacity: 0;
+	transform: translate(30%, 0%);
+	transition: all .25s ease-out;
+
+}
+
+.services--item---text-services-1.fade-in {
+	transform: translate(0%, 0%);
+	opacity: 1;
+
+}
+
+.services--item---text-services-2 {
+	opacity: 0;
+	transform: translate(-30%, 0%);
+	transition: all .25s ease-out;
+
+}
+
+.services--item---text-services-2.fade-in {	
+	opacity: 1;
+	transform: translate(0%, 0%);
+}
+
+.services--item---text-services-3 {
+	transform: translate(30%, 0%);
+	opacity: 0;
+	transition: all .25s ease-out;
+
+}
+
+.services--item---text-services-3.fade-in {	
+	opacity: 1;
+	transform: translate(0%, 0%);
+}
+
+.services--item---text-services-4 {
+	opacity: 0;
+	transition: all .25s ease-out;
+	transform: translate(-30%, 0%);
+
+}
+
+.services--item---text-services-4.fade-in {	
+	opacity: 1;
+	transform: translate(0%, 0%);
+}
+
+.services--item---text-services-5 {
+	opacity: 0;
+	transition: all .25s ease-out;
+	transform: translate(30%, 0%);
+}
+
+.services--item---text-services-5.fade-in {	
+	opacity: 1;
+	transform: translate(0%, 0%);
+}
+
+.services--item---text-services-6 {
+	opacity: 0;
+	transition: all .25s ease-out;
+	transform: translate(-30%, 0%);
+}
+
+.services--item---text-services-6.fade-in {	
+	opacity: 1;
+	transform: translate(0%, 0%);
+}

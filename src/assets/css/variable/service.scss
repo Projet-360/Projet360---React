@@ -1,0 +1,354 @@
+.services-box {
+	background-size: auto 150%;
+	background-position: center;
+	left: 0;
+	position: relative;
+	top: 0;
+	width: 100vw;
+	overflow: hidden;
+	color: white;
+
+	h2 {
+		font-size: 6vw;
+		text-align: center;
+		font-family: image-titre;
+	}
+
+	p {
+		font-family: menu;
+		font-size: 22px;
+	}
+}
+
+.services-cadre {
+	border: 30px solid white;
+	padding: 40px;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+
+#services-1 {
+	background-image: -webkit-linear-gradient(45deg, #2e3192, #1bffff);
+	background-image: linear-gradient(45deg, #2e3192, #1bffff);
+	min-height: 100vh !important;
+	width: 100vw !important;
+
+	h2 {
+		font-size: 6vw;
+		text-align: center;
+		color: white !important;
+		margin-bottom: 5vh !important;
+		font-family: image-titre-apropos;
+		text-transform: capitalize;
+	}
+
+	a {
+		text-decoration: none !important;
+	}
+
+	a.link-contact {
+		color: #ffa6a6 !important;
+		text-transform: uppercase !important;
+	}
+
+	p {
+		font-family: menu;
+		color: white;
+		font-size: 22px;
+		text-align: center;
+	}
+
+	@media screen and (max-width: 640px) {
+		h2 {
+			font-size: 40px;
+		}
+
+		p {
+			font-family: menu;
+			color: white;
+			font-size: 15px;
+			text-align: center;
+		}
+	}
+
+	span {
+		position: absolute;
+		font-size: 400px;
+		color: white;
+		font-family: Services;
+		opacity: 0.1;
+		left: -15vw;
+		top: -21vh;
+		line-height: 360px;
+		text-transform: capitalize;
+	}
+}
+
+#services-2 {
+	background-image: -webkit-linear-gradient(45deg, #00a8c5, #ffff7e);
+	background-image: linear-gradient(45deg, #00a8c5, #ffff7e);
+	min-height: 100vh !important;
+	width: 100vw !important;
+
+	a.link-contact {
+		color: rgb(215, 103, 103) !important;
+		text-transform: uppercase !important;
+	}
+
+	h2 {
+		font-size: 6vw;
+		text-align: center;
+		color: white !important;
+		margin-bottom: 5vh !important;
+		font-family: image-titre-apropos;
+	}
+
+	h5 {
+		font-family: menu;
+		color: white;
+	}
+
+	p {
+		font-family: menu;
+		color: white;
+		font-size: 22px;
+		text-align: justify;
+	}
+
+	@media screen and (max-width: 640px) {
+		h2 {
+			font-size: 40px;
+		}
+
+		p {
+			font-family: menu;
+			color: white;
+			font-size: 15px;
+			text-align: justify;
+		}
+	}
+
+	span {
+		position: absolute;
+		font-size: 400px;
+		color: white;
+		font-family: Services;
+		opacity: 0.1;
+		left: -15vw;
+		top: -21vh;
+		line-height: 360px;
+		text-transform: capitalize;
+	}
+}
+
+#services-3 {
+	background-image: -webkit-linear-gradient(45deg, #009245, #fcee21);
+	background-image: linear-gradient(45deg, #009245, #fcee21);
+	min-height: 100vh !important;
+	width: 100vw !important;
+
+	a.link-contact {
+		color: rgb(215, 103, 103) !important;
+		text-transform: uppercase !important;
+	}
+
+	h2 {
+		font-size: 6vw;
+		text-align: center;
+		color: white !important;
+		margin-bottom: 5vh !important;
+		font-family: image-titre-apropos;
+	}
+
+	p {
+		font-family: menu;
+		color: white;
+		font-size: 22px;
+		text-align: justify;
+	}
+
+	@media screen and (max-width: 640px) {
+		h2 {
+			font-size: 40px;
+		}
+
+		p {
+			font-family: menu;
+			color: white;
+			font-size: 15px;
+			text-align: justify;
+		}
+	}
+
+	span {
+		position: absolute;
+		font-size: 400px;
+		color: white;
+		font-family: Services;
+		opacity: 0.1;
+		left: -15vw;
+		top: -21vh;
+		line-height: 360px;
+		text-transform: capitalize;
+	}
+}
+
+#services-4 {
+	background-image: -webkit-linear-gradient(45deg, #d4145a, #fbb03b);
+	background-image: linear-gradient(45deg, #d4145a, #fbb03b);
+	min-height: 100vh !important;
+	width: 100vw !important;
+
+	a.link-contact {
+		color: rgb(215, 103, 103) !important;
+		text-transform: uppercase !important;
+	}
+
+	h2 {
+		font-size: 6vw;
+		text-align: center;
+		color: white !important;
+		margin-bottom: 5vh !important;
+		font-family: image-titre-apropos;
+	}
+
+	p {
+		font-family: menu;
+		color: white;
+		font-size: 22px;
+		text-align: justify;
+	}
+
+	@media screen and (max-width: 640px) {
+		h2 {
+			font-size: 40px;
+		}
+
+		p {
+			font-family: menu;
+			color: white;
+			font-size: 15px;
+			text-align: justify;
+		}
+	}
+
+	span {
+		position: absolute;
+		font-size: 400px;
+		color: white;
+		font-family: Services;
+		opacity: 0.1;
+		left: -15vw;
+		top: -21vh;
+		line-height: 360px;
+		text-transform: capitalize;
+	}
+}
+
+#services-5 {
+	background-image: -webkit-linear-gradient(45deg, #ed1c24, #fcee21);
+	background-image: linear-gradient(45deg, #ed1c24, #fcee21);
+	min-height: 100vh !important;
+	width: 100vw !important;
+
+	a.link-contact {
+		color: rgb(215, 103, 103) !important;
+		text-transform: uppercase !important;
+	}
+
+	h2 {
+		font-size: 6vw;
+		text-align: center;
+		color: white !important;
+		margin-bottom: 5vh !important;
+		font-family: image-titre-apropos;
+	}
+
+	p {
+		font-family: menu;
+		color: white;
+		font-size: 22px;
+		text-align: justify;
+	}
+
+	@media screen and (max-width: 640px) {
+		h2 {
+			font-size: 40px;
+		}
+
+		p {
+			font-family: menu;
+			color: white;
+			font-size: 15px;
+			text-align: justify;
+		}
+	}
+
+	span {
+		position: absolute;
+		font-size: 400px;
+		color: white;
+		font-family: Services;
+		opacity: 0.1;
+		left: -15vw;
+		top: -21vh;
+		line-height: 360px;
+		text-transform: capitalize;
+	}
+}
+
+#services-6 {
+	background-image: -webkit-linear-gradient(45deg, #3a3897, #a3a1ff);
+	background-image: linear-gradient(45deg, #3a3897, #a3a1ff);
+	min-height: 100vh !important;
+	width: 100vw !important;
+
+	a.link-contact {
+		color: rgb(215, 103, 103) !important;
+		text-transform: uppercase !important;
+	}
+
+	h2 {
+		font-size: 6vw;
+		text-align: center;
+		color: white !important;
+		margin-bottom: 5vh !important;
+		font-family: image-titre-apropos;
+	}
+
+	p {
+		font-family: menu;
+		color: white;
+		font-size: 22px;
+		text-align: justify;
+	}
+
+	@media screen and (max-width: 640px) {
+		h2 {
+			font-size: 40px;
+		}
+
+		p {
+			font-family: menu;
+			color: white;
+			font-size: 15px;
+			text-align: justify;
+		}
+	}
+
+	a {
+		text-decoration: none !important;
+	}
+
+	span {
+		position: absolute;
+		font-size: 400px;
+		color: white;
+		font-family: Services;
+		opacity: 0.1;
+		left: -15vw;
+		top: -21vh;
+		line-height: 360px;
+		text-transform: capitalize;
+	}
+}

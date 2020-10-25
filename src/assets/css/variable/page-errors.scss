@@ -1,0 +1,64 @@
+.page-errors{
+  background-image: url(../img/image/image-slider-competences-photoshop-projet360-Toulouse.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: menu;
+  overflow-x: hidden;
+  height: 100vh;
+   .mdpforget{
+     color: #3f81c7 !important;
+     font-weight: bold;
+    }
+
+  input::placeholder {
+color: black;
+}
+  .page-errors--box{
+  padding: 2vh !important;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  }
+  .page-errors--box---titre p{
+    font-family: web-titre;
+    margin: 2vh;
+    border: 8px solid black;
+    text-align: right;
+    padding: 2vh !important;
+  }
+  .form-control{
+    padding: .5rem 0rem !important;
+        background-color: rgba(255,255,255,0.5) !important;
+        box-shadow: none !important;
+        border: 1px solid #323232 !important;
+        color: #323232 !important;
+        font-family: menu;
+        text-indent:20px;
+    }
+
+    .btn-primary{
+          padding: .5rem 0rem !important;
+          background-color: rgba(255,255,255,0) !important;
+          box-shadow: none !important;
+          border: 1px solid #323232 !important;
+          color: #323232 !important;
+          font-family: menu;
+          display: block !important;
+          margin-bottom: 1rem !important;
+          &:hover{
+            background-color: rgba(162, 227, 132, 1) !important;
+          }
+    }
+    .btn-primary--back{
+      &:hover{
+        background-color: rgba(227, 132, 132, 1) !important;
+        cursor:pointer;
+      }
+    }
+}
+.page-errors--box---titre----404{
+  font-weight: bold;
+  text-align: center !important;
+}
+.page-errors--box---titre----text{
+  text-align: center !important;
+}

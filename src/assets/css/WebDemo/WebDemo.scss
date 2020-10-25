@@ -1,0 +1,307 @@
+.html-webdemo.center {
+    background-color: rgb(169, 169, 169);
+    background-image: linear-gradient(white, rgba(255, 255, 255, 0));
+    transition: background-color 1s;
+}
+
+.fas {
+    color: #4e4b80;
+}
+
+
+.html-webdemo {
+
+    .scrollbar-container {
+        position: absolute;
+        height: 75vh;
+        overflow: auto !important;
+        background-color: rgba(255, 255, 255, 0);
+        -webkit-transition: background-color 1s ease-out;
+        -moz-transition: background-color 1s ease-out;
+        -o-transition: background-color 1s ease-out;
+        transition: background-color 1s ease-out;
+        
+        &:hover{
+            background-color: rgba(255, 255, 255, 0.75);
+        }
+    }
+
+    .scrollbar-container .inner {
+        width: 100%;
+
+    }
+
+    ::-webkit-scrollbar {
+        background: transparent;
+        display: -webkit-box !important;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.2);
+        border: solid rgb(231, 231, 231) 4px;
+        border-radius: 5px;
+
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+
+
+    overflow: hidden;
+    min-height: 100vh;
+    min-width: 101vw;
+    background-color: rgb(169, 169, 169);
+    background-image: linear-gradient(white, rgba(255, 255, 255, 0));
+    transition: background-color 2s;
+
+
+    body {
+        main {
+            section {
+                min-width: 100vw;
+                min-height: 100vh;
+                position: absolute;
+                color: black;
+            }
+
+            .navigation {
+                ul {
+                    list-style: none;
+                    position: absolute;
+                    top: 5vh;
+                    left: 2vw;
+                    z-index: 200;
+
+                    li {
+                        float: left;
+                        padding: 0px 15px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        font-family: Raleway;
+                        color: #4e4b80;
+
+                        &:hover {
+                            cursor: pointer !important;
+                            text-decoration: overline;
+                        }
+                    }
+                }
+            }
+
+            .fleche {
+                position: absolute;
+                color: rgb(64, 64, 64);
+                font-weight: bold;
+                font-family: Cormorant Unicase;
+                z-index: 20;
+
+                ul {
+                    li {
+                        list-style: none;
+                        cursor: pointer;
+
+                        div {
+                            font-family: Raleway;
+                            font-weight: bold;
+                            right: -2vw;
+                            left: -2vw;
+                            position: absolute;
+                            transition: all 1s ease;
+
+                            &:hover {
+                                font-size: 20px !important;
+                            }
+                        }
+                    }
+
+                    li.up {
+                        top: 2vh;
+                        position: absolute;
+                        transition: all 1s ease;
+                        text-align: center;
+                        right: -50vw;
+                        margin-right: -16px;
+
+                    }
+
+                    li.down {
+                        bottom: 2vh;
+                        position: absolute;
+                        transition: all 1s ease;
+                        text-align: center;
+                        bottom: -95vh;
+                        right: -50vw;
+                        margin-right: -16px;
+                    }
+
+                    li.right {
+                        position: absolute;
+                        transition: all 1s ease;
+                        text-align: center;
+                        right: -98vw;
+                        top: 45vh;
+                    }
+
+                    li.left {
+                        left: 2vw;
+                        position: absolute;
+                        transition: all 1s ease;
+                        text-align: center;
+                        top: 45vh;
+                    }
+
+                    li.return {
+                        right: -98vw;
+                        top: 5vh;
+                        position: absolute;
+                        transition: all 1s ease;
+                        opacity: 0;
+                        font-size: 1rem;
+                        font-family: Montserrat;
+                        transition: all 1s ease;
+
+                        i {
+                            transition: all 1s ease;
+                        }
+
+                        &:hover {
+                            font-size: 2rem;
+
+                            i {
+                                font-size: 3rem;
+                            }
+                        }
+                    }
+                }
+            }
+
+            article {
+                z-index: 10;
+                min-width: 100vw;
+                min-height: 100vh;
+            }
+
+            #scrollbar {
+                position: absolute;
+                right: 5px;
+                height: 30px;
+                width: 10px;
+                border-radius: 10px;
+                zmargin-top: 5px;
+                background: rgb(255, 255, 255);
+                z-index: 2000;
+            }
+
+            ::-webkit-scrollbar {
+                display: none;
+            }
+
+
+
+            .section-h1{
+                font-family: Raleway;
+                font-size: 10vw;
+                font-weight: bold;
+                color: #4e4b80;
+            }
+
+            .section-paragraphe {
+                top: 30vh;
+                left: 10vw;
+                position: absolute;
+                width: 20vw;
+                font-family: Raleway;
+            }
+
+            .sagittaire {
+                background-image: url(../img/WebDemo/sagittarius.png);
+                background-size: contain;
+                min-width: 200vw;
+                min-height: 200vh;
+                position: absolute;
+                left: 40vw;
+                top: -10vh;
+            }
+
+            .virgo-img {
+                background-image: url(../img/WebDemo/virgo.png);
+                background-size: contain;
+                min-width: 150vw;
+                min-height: 150vh;
+                position: absolute;
+                left: 0vw;
+                top: 50vh;
+            }
+
+
+            .section-center {
+
+                h1 {
+                    color: #4e4b80;
+                    text-shadow: -5px 5px #cfcfcf;
+                    font-family: Old Standard TT;
+                    font-size: 10vw;
+                }
+
+                span {
+                    position: absolute;
+                    font-family: Raleway;
+                    font-size: 18px;
+                    text-align: center;
+                    border-bottom: 3px solid #4e4b80;
+                    border-top: 3px solid #4e4b80;
+                    margin-left: 2vw;
+                    padding-top: 5px;
+                    text-shadow: -9px 10px 4px rgba(150, 150, 150, 1);
+
+                    p {
+                        font-size: 18px !important;
+                    }
+
+                    img {
+                        margin-top: 5px;
+                        margin-bottom: 5px;
+                        height: 40px;
+                        width: auto;
+                        filter: "drop-shadow(-20px 10px 4px #36363647)";
+                    }
+
+                }
+            }
+
+            .section-up {
+                .section-paragraphe-1 {
+                    font-family: Raleway;
+                    text-align: justify;
+                    font-size: 2.8vh;
+                    line-height: 4vh;
+                }
+                h1{
+                    color:#4e4b80;
+                }
+
+                .up-img {
+                    position: absolute;
+                    background-image: url(../img/WebDemo/gemini.png);
+                    height: 150vh;
+                    width: 150vw;
+                    overflow: visible;
+                    background-size: contain;
+                    left: 80vw;
+                    top: -60vh;
+                }
+            }
+
+            .section-right {}
+
+            .section-left {}
+
+            .section-down {
+
+            }
+        }
+
+    }
+}

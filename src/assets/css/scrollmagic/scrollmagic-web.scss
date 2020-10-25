@@ -1,0 +1,123 @@
+//SERT A BLOCKER LES IMAGES DE GAUCHE
+
+.body-web {
+	opacity: 0;
+	right: 10vw;
+	position: absolute;
+	transition: all .7s ease;
+  }
+  .body-web.fade-in {
+	  opacity: 1;
+	  right: 0vw;
+  }
+.body-web {
+	.web-accueil--anim---titre {
+		opacity: 0;
+		transform: translateX(-200px);
+		transition: all .5s ease-out;
+	}
+
+	.web-accueil--anim---titre.fade-in {
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	.web-apropos--anim---titre {
+		opacity: 0;
+		transform: translateX(-200px);
+		transition: all .5s ease-out;
+	}
+
+	.web-apropos--anim---titre.fade-in {
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	.web-accueil--anim---texte {
+		opacity: 0;
+		transform: translateX(-200px);
+		transition: all .35s ease-out;
+	}
+
+	.web-accueil--anim---texte.fade-in {
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+
+	.web-apropos--anim---texte {
+		opacity: 0;
+		transform: translateX(-200px);
+		transition: all .5s ease-out;
+	}
+
+	.web-apropos--anim---texte.fade-in {
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	.web-apropos--anim---texte p {
+		opacity: 1;
+		transition: all .5s ease-out;
+		transform: translateX(10vw) !important;
+		position: relative;
+	}
+
+	.web-apropos--anim---texte p.fade-in {
+		opacity: 1;
+		transform: translateX(0) !important;
+		position: relative;
+	}
+
+	.web-services--anim---texte {
+		opacity: 0;
+		transform: translateX(-5vw);
+		transition: all .5s ease-out;
+	}
+
+	.web-services--anim---texte.fade-in {
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+	.web-services--anim---texte {
+		opacity: 0;
+		transform: translateX(-200px);
+		transition: all .4s ease-out;
+	}
+
+	.web-services--anim---texte.fade-in {
+		transform: translateX(0);
+		height: inherit;
+		opacity: 1;
+	}
+
+	.carousel-inner {
+		opacity: 0;
+		transform: translateX(10vw);
+		transition: all .4s ease-out;
+	}
+
+	.carousel-inner.fade-in {
+		transform: translateX(0);
+		opacity: 1;
+		transform: rotateY(0deg);
+	}
+
+  
+	.web-contact--titre {
+		opacity: 0;
+		transform: translateY(-10vw);
+		transition: all .4s ease-out;
+	}
+
+	.web-contact--titre.fade-in {
+		transform: translateY(0);
+		opacity: 1;
+		transform: rotateY(0deg);
+	}
+}
+.scrollmagic-pin-spacer {
+	position: absolute !important;
+	clip: rect(auto, auto, auto, auto);
+}

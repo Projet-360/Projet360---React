@@ -1,0 +1,74 @@
+.body-video {
+	opacity: 0;
+	left: 10vw;
+	position: absolute;
+	transition: all .7s ease;
+  }
+  .body-video.fade-in {
+	  opacity: 1;
+	  left: -13px;
+  }
+
+.video-apropos--box---header----box {
+  opacity: 0;
+  transition: all 1s ease-out;
+}
+
+.video-apropos--box---header----box.fade-in {
+  opacity: 1;
+}
+
+.video-main--page---right----services-----box {
+  opacity: 0;
+    transform: translateX(-200px);
+  transition: all 1s ease-out;
+}
+
+.video-main--page---right----services-----box.fade-in {
+  opacity: 1;
+    transform: translateX(0px);
+}
+
+.video-formulaire--left {
+  opacity: 0;
+    transform: translateX(-200px);
+  transition: all 1s ease-out;
+}
+
+.video-formulaire--left.fade-in {
+  opacity: 1;
+    transform: translateX(0px);
+}
+
+.video-contact--titre {
+  opacity: 0;
+    transform: translateY(-200px);
+  transition: all 1s ease-out;
+}
+
+.video-contact--titre.fade-in {
+  opacity: 1;
+    transform: translateY(0px);
+}
+
+.video-formulaire--right {
+  opacity: 0;
+    transform: translateX(200px);
+  transition: all 1s ease-out;
+}
+
+.video-formulaire--right.fade-in {
+  opacity: 1;
+    transform: translateX(0px);
+}
+
+.video-formulaire--boutton {
+  opacity: 0;
+    transform: translateY(200px);
+  transition: all 1s ease-out;
+}
+
+.video-formulaire--boutton.fade-in {
+  opacity: 1;
+    transform: translateY(0px);
+}

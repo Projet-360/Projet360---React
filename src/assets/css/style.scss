@@ -1,0 +1,161 @@
+.container,.container-fluid,.row,.col,.col-1,.col-10,.col-11,.col-12,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-lg,.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xl,.col-xl-1,.col-xl-10,.col-xl-11,.col-xl-12,.col-xl-2,.col-xl-3,.col-xl-4,.col-xl-5,.col-xl-6,.col-xl-7,.col-xl-8,.col-xl-9 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  box-sizing: content-box !important;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+$home-web:#35bddb;
+$home-audio:rgb(167, 97, 215);
+$home-image:#91cf63;
+$home-video:#E89B4D;
+
+body {
+  background-color: rgb(255, 255, 255) !important;
+  overflow: hidden !important;
+  text-rendering: optimizeLegibility;
+  text-rendering: geometricPrecision;
+  font-smooth: always;
+  font-smooth: never;
+  font-smoothing: antialiased;
+  -moz-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+.body-web{
+  .main--page---right----services-----box------bloc-------grid {
+    height: 40vh;
+  }
+}
+.main--page---right----services-----box------bloc-------grid {
+  height: 60vh;
+
+  .main--page---right----services-----box------bloc-------grid--------bloc {
+    height: 20vh;
+
+    a {
+      height: 20vh;
+      text-decoration: none;
+
+      img {
+        height: 15vh;
+        width: auto;
+        transition: all 1s ease;
+
+        &:hover {
+          height: 17vh;
+          width: auto;
+        }
+      }
+
+      p {
+        font-family: image-titre;
+        color: black;
+      }
+    }
+  }
+}
+
+.spinner {
+  opacity: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -10;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.25s ease;
+
+  img {
+    width: 20vw;
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transition-timing-function: ease;
+  }
+
+  @-webkit-keyframes rotate {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+
+    to {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+}
+
+.services--item---text----abutton {
+  text-decoration: none !important;
+}
+
+
+
+
+
+/*______________________________________________________________________________Font:*/
+@import 'variable/font.scss';
+@import 'variable/a4.scss';
+/*______________________________________________________________________________fin Font:*/
+
+
+/*______________________________________________________________________________Variable:*/
+@import 'variable/social.scss';
+@import 'variable/arrow.scss';
+@import 'variable/menu.scss';
+@import 'variable/page-navigator.scss';
+@import 'variable/page-errors.scss';
+@import 'variable/services-navigation.scss';
+@import 'variable/contact.scss';
+/*______________________________________________________________________________fin Variable:*/
+
+
+
+/*______________________________________________________________________________Home:*/
+@import 'home/home.scss';
+/*______________________________________________________________________________fin Home:*/
+
+
+/*______________________________________________________________________________Web:*/
+@import 'web/web.scss';
+
+
+
+/*
+@import 'audio/audio.scss';
+
+@import 'image/image.scss';
+
+@import 'video/video.scss';
+
+
+
+
+@import 'variable/logo.scss';
+@import 'variable/service.scss';
+@import 'variable/services-navigation-left.scss';
+
+
+
+@import 'scrollmagic/scrollmagic-home.scss';
+@import 'scrollmagic/scrollmagic-web.scss';
+@import 'scrollmagic/scrollmagic-audio.scss';
+@import 'scrollmagic/scrollmagic-image.scss';
+@import 'scrollmagic/scrollmagic-video.scss';
+@import 'scrollmagic/scrollmagic-service.scss';
+@import 'scrollmagic/scrollmagic-services-navigation.scss';
+@import 'scrollmagic/scrollmagic-navigation.scss';
+
+
+
+
+@import 'ServicesPages/page.scss';
+@import 'variable/scrollbar.scss';
+@import 'WebDemo/WebDemo.scss';
+
+*/

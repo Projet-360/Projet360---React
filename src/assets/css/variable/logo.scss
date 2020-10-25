@@ -1,0 +1,19 @@
+.logo a img {
+  width: 60px;
+  -videokit-animation-name:             rotate !important;
+  -videokit-animation-duration:         4s !important;
+  -videokit-animation-iteration-count:  infinite !important;
+  -videokit-transition-timing-function: ease !important;
+}
+
+.logo a img:hover {
+
+}
+@-videokit-keyframes rotate {
+  from {
+    -videokit-transform: rotate(0deg);
+  }
+  to {
+    -videokit-transform: rotate(360deg);
+  }
+}

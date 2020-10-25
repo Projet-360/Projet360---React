@@ -1,0 +1,8 @@
+.transition-loader{
+    transition: .4;
+    opacity: 1;
+}
+
+html.is-animating .transition-loader{
+    opacity: 0;
+}

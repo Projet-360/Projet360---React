@@ -1,0 +1,87 @@
+//Entrée dans le site chargement
+/*_____________________déplacement de la div #home-web à l'entrée de l'accueil*/
+
+.home-web {
+  opacity: 0;
+  -webkit-transition: opacity 0s ease-out, transform 0s ease-out;
+  -moz-transition: opacity 0s ease-out, transform 0s ease-out;
+  -o-transition: opacity 0s ease-out, transform 0s ease-out;
+  transition: opacity 0s ease-out, transform 0s ease-out;
+  transform: translateY(-10vh);
+}
+
+.home-web.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  -webkit-transition: opacity 1s ease-out, transform 1s ease-out;
+  -moz-transition: opacity 1s ease-out, transform 1s ease-out;
+  -o-transition: opacity 1s ease-out, transform 1s ease-out;
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+/*___________________déplacement de la div #homa-audio à l'entrée de l'accueil*/
+
+.home-audio {
+  opacity: 0;
+  -webkit-transition: opacity 0s ease-out, transform 0s ease-out;
+  -moz-transition: opacity 0s ease-out, transform 0s ease-out;
+  -o-transition: opacity 0s ease-out, transform 0s ease-out;
+  transition: opacity 0s ease-out, transform 0s ease-out;
+  transform: translateX(10vw);
+}
+
+.home-audio.fade-in {
+  opacity: 1;
+  transform: translateX(0);
+  -webkit-transition: opacity 1s ease-out, transform 1s ease-out;
+  -moz-transition: opacity 1s ease-out, transform 1s ease-out;
+  -o-transition: opacity 1s ease-out, transform 1s ease-out;
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+/*___________________déplacement de la div #home-image à l'entrée de l'accueil*/
+
+.home-image {
+  opacity: 0;
+  -webkit-transition: opacity 0s ease-out, transform 0s ease-out;
+  -moz-transition: opacity 0s ease-out, transform 0s ease-out;
+  -o-transition: opacity 0s ease-out, transform 0s ease-out;
+  transition: opacity 0s ease-out, transform 0s ease-out;
+  transform: translateX(-10vw);
+}
+
+.home-image.fade-in {
+  opacity: 1;
+  transform: translateX(0);
+  -webkit-transition: opacity 1s ease-out, transform 1s ease-out;
+  -moz-transition: opacity 1s ease-out, transform 1s ease-out;
+  -o-transition: opacity 1s ease-out, transform 1s ease-out;
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+/*__________________déplacement de la div #hhome-video à l'entrée de l'accueil*/
+
+.home-video {
+  opacity: 0;
+  -webkit-transition: opacity 0s ease-out, transform 0s ease-out;
+  -moz-transition: opacity 0s ease-out, transform 0s ease-out;
+  -o-transition: opacity 0s ease-out, transform 0s ease-out;
+  transition: opacity 0s ease-out, transform 0s ease-out;
+  transform: translateY(10vh);
+}
+
+.home-video.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  -webkit-transition: opacity 1s ease-out, transform 1s ease-out;
+  -moz-transition: opacity 1s ease-out, transform 1s ease-out;
+  -o-transition: opacity 1s ease-out, transform 1s ease-out;
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+/*____________________________________________________________________________*/
+
+.body-home {
+  transform: scale(0);
+  transition: all .7s ease;
+}
+.body-home.fade-in {
+  transform: scale(1);
+}
+

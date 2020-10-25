@@ -1,0 +1,154 @@
+.body-audio {
+	opacity: 0;
+	left: 10vw;
+	position: absolute;
+	transition: all .7s ease;
+  }
+  .body-audio.fade-in {
+    opacity: 1;
+    
+    left: -12px;
+  }
+
+
+
+
+
+
+
+.audio-services--box {
+  opacity: 0;
+  transform: translateX(100vw);
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.audio-services--box.fade-in {
+  opacity: 1 !important;
+  transform: translateX(0);
+  right: 0 !important;
+}
+
+.audio-services--box.notfade-in {
+  opacity: 0;
+  transform: translateX(0);
+  right: 0 !important;
+}
+.audio-main--accueil---titre----anim-----h2 {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+.audio-main--accueil---titre----anim-----h2.fade-in {
+  opacity: 1;
+}
+
+.audio-main--accueil---titre----anim-----h1 {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+.audio-main--accueil---titre----anim-----h1.fade-in {
+  opacity: 1;
+}
+
+.audio-apropos--box---header----box-----bloc {
+  opacity: 0;
+    transform: translateY(-2vw);
+  transition: all 1s ease-out;
+}
+
+.audio-apropos--box---header----box-----bloc.fade-in {
+    transform: translateY(0);
+  opacity: 1;
+}
+
+.audio-main--page---right----services-----box {
+  opacity: 0;
+    transform: translateX(-12vw);
+  transition: all 1s ease-out;
+}
+
+.audio-main--page---right----services-----box.fade-in {
+    transform: translateX(0);
+  opacity: 1;
+}
+
+.audio-competences--titre {
+  opacity: 0;
+    transform: translateY(10vw);
+  transition: all 1s ease-out;
+}
+
+.audio-competences--titre.fade-in {
+    transform: translateY(0);
+  opacity: 1;
+}
+.carousel-inner {
+  opacity: 0;
+    transform: translateY(10vw);
+  transition: all 1s ease-out;
+}
+
+.carousel-inner.fade-in {
+    transform: translateY(0);
+  opacity: 1;
+}
+
+.carousel-inner {
+  opacity: 0;
+    transform: translateY(10vw);
+  transition: all 1s ease-out;
+}
+
+.carousel-inner.fade-in {
+    transform: translateY(0);
+  opacity: 1;
+}
+
+.audio-contact--titre {
+  opacity: 0;
+    transform: translateY(-5vw);
+  transition: all 1s ease-out;
+}
+
+.audio-contact--titre.fade-in {
+    transform: translateY(0);
+  opacity: 1;
+}
+
+.audio-formulaire--left {
+  opacity: 0;
+    transform: translateX(-5vw);
+  transition: all 1s ease-out;
+}
+
+.audio-formulaire--left.fade-in {
+    transform: translateX(0);
+  opacity: 1;
+}
+
+.audio-formulaire--right {
+  opacity: 0;
+    transform: translateX(5vw);
+  transition: all 1s ease-out;
+}
+
+.audio-formulaire--right.fade-in {
+    transform: translateX(0);
+  opacity: 1;
+}
+
+.audio-formulaire--boutton {
+  opacity: 0;
+    transform: translateY(5vw);
+  transition: all 1s ease-out;
+}
+
+.audio-formulaire--boutton.fade-in {
+    transform: translateY(0);
+  opacity: 1;
+}

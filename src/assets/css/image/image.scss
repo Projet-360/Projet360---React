@@ -1,0 +1,580 @@
+.body-image {
+  background-color: rgba(245, 245, 245, 0.68);
+
+/*______________________________________________________________image BACKGROUND*/
+.image-accueil {
+  left: 0;
+  top: 0;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  width: 100vw;
+  background: rgb(246, 246, 246);
+
+  .arrow {
+    margin-top: 2vh !important;
+  }
+}
+
+.image-apropos {
+  background: rgb(246, 246, 246) url("../img/image/apropos-Image-projet360-Toulouse-agence-de-communication.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  top: 0;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  width: 100vw;
+
+}
+
+.image-services {
+  background: rgb(246, 246, 246) url("../img/image/services-Image-projet360-Toulouse-agence-de-communication.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  top: 0;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.image-competences {
+  left: 0;
+  top: 0;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  width: 100vw;
+  background: rgb(246, 246, 246);
+  -webkit-box-shadow: inset 0px 0px 49px -13px rgba(56,56,56,1);
+  -moz-box-shadow: inset 0px 0px 49px -13px rgba(56,56,56,1);
+  box-shadow: inset 0px 0px 49px -13px rgba(56,56,56,1);
+}
+
+.image-contact {
+  background:#000a02 ;
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 0;
+  position: relative;
+  overflow: hidden;
+  min-height: 100vh;
+  width: 100vw;
+}
+@media screen and (min-width: 0px) and (max-width: 996px) {
+  .image-competences {
+    height: max-content;
+  }
+
+  .image-competences--box {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 996px) {
+  .image-contact {
+    min-height: 100vh;
+  }
+}
+/*__________________________________________________________FIN image BACKGROUND*/
+
+.image-main {
+  overflow: hidden !important;
+}
+/*____________________________________________________________________ accueil*/
+.image-accueil--image{
+  background-image: url("../img/image/image-slider-competences-photoshop-projet360-Toulouse.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  padding: 70px;
+  background-color: white;
+}
+.image-accueil--text{
+  h1{
+    font-family: image-titre-apropos;
+    font-weight: bold;
+    margin-top: 0px !important;
+  }
+  h2{
+    font-family: image-titre-apropos;
+    font-weight: bold;
+    color: #91cf63 !important;
+  }
+  p{
+    font-family: image-titre-apropos;
+    font-weight: bold;
+  }
+}
+/*________________________________________________________________ Carousel*/
+
+.image-main--accueil---slider {
+  height: 100vh;
+  -webkit-box-shadow: 0 0 28px 6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0 0 28px 6px rgba(0,0,0,0.75);
+  box-shadow: 0 0 28px 6px rgba(0,0,0,0.75);
+}
+
+.image-main--accueil---slider----image1 {
+  background-image: url("../img/image/image-slider-competences-photoshop-projet360-Toulouse.jpg");
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-main--accueil---slider----titre1 {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 50vh;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.image-main--accueil---slider----image2 {
+  background-image: url("../img/image/Image-Logo-texte-projet360-Toulouse-agence-de-communication.jpg");
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-main--accueil---slider----image3 {
+  background-image: url("../img/image/charte-graphique-Image-projet360-Toulouse-agence-de-communication.jpg");
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-main--accueil---slider----image4 {
+  background-image: url("../img/image/packaging-Image-projet360-Toulouse-agence-de-communication.jpg");
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/*____________________________________________________________ FIN Carousel*/
+
+.image-main--accueil---subcarousel {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-family: image-titre;
+}
+
+.image-main--accueil---titre {
+  text-align: center;
+  background: rgb(69,72,77);
+  background: -moz-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+  background: linear-gradient(to bottom, rgba(69,72,77,0.7) 0%,rgba(0,0,0,0.7) 100%);
+  text-shadow: 4px 4px 8px rgba(28, 28, 28, 1);
+  font-weight: bold;
+  font-family: image-texte;
+  height: 20vh;
+  border-radius: 10px;
+  padding: 4% !important;
+  color: #9664ab;
+}
+
+.image-main--accueil---titre h2 {
+  font-family: image-titre;
+  text-align: center;
+}
+
+.image-main--accueil---titre h1 {
+  text-align: center;
+}
+/*_________________________________________________________________FIN accueil*/
+/*_____________________________________________________________________Apropos*/
+
+.image-apropos {
+  .image-apropos--box---header {
+    color: #7e7e7e;
+  }
+
+  .image-apropos--box---header h2 {
+    text-transform: uppercase;
+    font-family: image-titre-apropos;
+    text-align: center;
+    /* Shadows are visible under slightly transparent text color */
+    color: rgb(40, 40, 40) !important;
+  }
+  /* Don't show shadows when selecting text */
+  ::-moz-selection,
+  ::selection {
+    background: #5af;
+    color: #fff;
+    text-shadow: none;
+  }
+
+  .image-apropos--box---header----box p {
+    font-family: menu;
+    text-align: justify;
+  }
+
+  .image-apropos--box---header----box {
+    border-bottom: 3px solid #91cf63;
+    border-top: 3px solid #91cf63;
+  }
+
+  .image-apropos--box---content {
+    height: 50vh;
+    padding-top: 10vh;
+    z-index: 999 !important;
+
+    .image-apropos--box---content---box {
+      color: white;
+      text-align: center;
+
+      .image-apropos--box---content---box----titre {}
+
+      .image-apropos--box---content---box----description {}
+    }
+  }
+
+  .image-apropos--box---header----box strong {
+    color: #91cf63 !important;
+  }
+}
+/*_________________________________________________________________FIN Apropos*/
+/*___________________________________________________________________ Services*/
+.services-image-plan2{
+  height: 50vh;
+  bottom: 15vh;
+}
+
+
+
+#services {
+
+	.services-image-plan3{
+		background-image: url("../img/audio/arrow-black.gif");
+		background-size: contain;
+		background-position: center;
+		height:20vh;
+		position: absolute;
+		transform: rotate(-90deg);
+		margin-left: 36vw !important;
+	}
+	.services-image-plan{
+    bottom: -28vh;
+    animation: baleine 8s infinite;
+		background-image: url("../img/image/service-img.png");
+		background-size: contain;
+		background-position: center;
+		height:35vh;
+		transform: rotate3d(0,1,0,20deg);
+		transition: all 3s ease;
+		opacity: 1;
+	   filter: drop-shadow(0px 0px 0px rgba(49,49,51,0.45)) blur(0px);
+  }
+  @keyframes baleine {
+    from {
+     
+      filter: drop-shadow(2px 2px 2px #222);
+    }
+    50% {
+      height: 55vh;
+      bottom: 7vh;
+      filter: drop-shadow(8px 8px 8px #222);
+    }
+  
+    to {
+      filter: drop-shadow(2px 2px 2px #222);
+    }
+  }
+
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 0vh;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: image-titre-apropos;
+    text-align: center;
+    color: rgb(40, 40, 40) !important;
+  }
+
+  h4 {
+    color: #282828 !important;
+  }
+}
+
+.image-services {
+  .image-services--link {
+    color: #91cf63;
+  }
+
+  .icon {
+    margin-top: 4vh;
+    font-size: 50px;
+    color: rgb(53, 164, 219);
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+  }
+
+}
+
+
+
+.image-main--page---right----services-----box {
+  font-family: menu;
+
+  h4 {
+    font-size: 30px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    color: white;
+    text-align: center;
+  }
+
+  p {
+    color: $home-image;
+    text-align: right;
+  }
+}
+
+
+.image-services--item---text----button {
+  background-color: unset !important;
+  border: 2px solid white !important;
+  color: white;
+  font-family: menu;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  -o-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+
+  &:hover {
+    background-color: $home-image !important;
+  }
+}
+/*________________________________________________________________FIN Services*/
+/*________________________________________________________________ Compétences*/
+
+  #competences {
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+
+  .image-competences--box {
+    border: 40px solid black;
+  }
+
+  .image-competences--box---bloc {
+    h1 {
+      text-align: center;
+      font-family: image-titre-apropos;
+      text-transform: uppercase;
+      text-align: center;
+      color: rgb(40, 40, 40) !important;
+    }
+
+    ul {
+      background-color: rgba(255, 255, 255, 0.95);
+      border-radius: 5px;
+      height: 80%;
+      width: 80% !important;
+      font-family: menu;
+      font-weight: bold;
+      margin-top: 15px;
+
+      li {
+        p {
+          margin-top: 15px;
+          text-align: center;
+        }
+      }
+    }
+
+    .image img {
+      width: 110px;
+      height: 110px;
+    }
+  }
+}
+/*_____________________________________________________________FIN Compétences*/
+/*____________________________________________________________________ Contact*/
+.image-contact--box{
+  min-height: 60vh !important;
+  
+}
+.image-contact{
+  .contact--box---bloc----tel-----p{
+    color: rgb(144, 208, 98);
+  }
+  .contact--box---bloc----tel-----num{
+    color: rgb(144, 208, 98);
+  }
+}
+
+
+
+.submit-image {
+  .btn-primary {
+    background-color: unset !important;
+    color: #91cf63 !important;
+    font-family: menu;
+    font-weight: bold;
+    border: 2px solid #91cf63 !important;
+    transition: all 1s ease;
+
+    &:hover {
+      background-color: rgba(#91cf63 , 0.53) !important;
+      color: white !important;
+    }
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .image-contact--box {
+    min-height: 100vh;
+  }
+}
+
+.image-contact--nav---box----img img {
+  padding: 15px;
+  height: 100px;
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.image-contact--nav---box {
+  background-color: rgba(255, 255, 255, 0.81);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  padding: 15px;
+}
+
+.image-contact--titre {
+  height: 10vh;
+  margin-top: 10vh;
+  text-align: center;
+  font-weight: normal;
+  font-family: image-titre-apropos;
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.image-contact {
+  .form-check-inline {
+    color: black !important;
+  }
+}
+
+.image-formulaire {}
+
+
+.image-contact .btn-primary {
+  margin-bottom: 2vh;
+}
+
+.image-contact--titre {
+  text-align: center;
+
+  h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #444444;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .image-contact--nav {
+    height: 100%;
+  }
+}
+/*_________________________________________________________________FIN Contact*/
+@media screen and (max-width: 430px) {
+  .image-apropos .fa-arrow-down {
+    color: black !important;
+  }
+}
+@media screen and (max-height: 700px) {
+  .image-apropos--box {
+    padding-top: 5vh;
+  }
+
+  .image-contact {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    width: 100%;
+  }
+}
+@media screen and (max-height: 550px) {
+  .image-apropos--box {
+    padding-top: 0;
+  }
+
+  .image-main--accueil---titre {
+    margin-top: 50vh !important;
+  }
+}
+@media screen and (max-height: 520px) {
+  .image-apropos--box {
+    padding-top: 10vh;
+  }
+
+  .image-main--accueil---titre {
+    margin-top: 40vh !important;
+  }
+}
+@media screen and (max-height: 2000px) {
+  .com__nav-item i {
+    font-size: 40px;
+  }
+}
+@media screen and (max-height: 530px) {
+  .com__nav-item i {
+    font-size: 20px !important;
+  }
+}
+@media screen and (max-height: 700px) {
+  .com__nav-item i {
+    font-size: 30px;
+  }
+}
+@media screen and (max-height: 520px) {
+  .com {
+    padding-top: 12vh !important;
+  }
+}
+@media screen and (max-height: 400px) {
+  .com {
+    padding-top: 15vh !important;
+  }
+}
+@media (orientation: landscape) and (max-width : 700px) {
+  .image-main--accueil---titre h2 {
+    font-size: 35px !important;
+  }
+
+  .image-apropos--box---header----box p {
+    font-size: 12px !important;
+  }
+
+  .image-contact {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  .image-competences {
+    height: 500px !important;
+  }
+}
+}
